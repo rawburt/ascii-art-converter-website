@@ -1,0 +1,5 @@
+target/
+.DS_Store
+output/
+static/conversion_results/*.png
+static/conversion_results/*.txt

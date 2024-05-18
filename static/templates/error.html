@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="author" content="Kelsey Werner, Robert Peterson" />
+        <meta
+            name="description"
+            content="Website to convert images to ASCII art and ASCII art to images"
+        />
+        <title>ASCII Art Converter</title>
+        <!-- favicon was taken from free svg website: https://freesvg.org/mono-ascii -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.svg" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+    </head>
+    <body>
+        <main class="container-md text-center border border-5 my-5">
+            <h1 class="mt-5">UH OH!</h1>
+            <div class="row justify-content-center">
+                <legend class="col-8 mt-5">{{error_message}}</legend>
+                {{#if error_message2}}
+                <legend class="col-8">{{error_message2}}</legend>
+                {{/if}}
+            </div>
+            <div class="row justify-content-center my-5">
+                <div>
+                    <a href={{try_again_link}} class="btn btn-lg btn-primary col-3">Try Again!</a>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

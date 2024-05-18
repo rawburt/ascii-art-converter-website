@@ -1,0 +1,25 @@
+[package]
+name = "ascii-art-converter-website"
+authors = ["Kelsey Werner <werner@pdx.edu>", "Robert Peterson <rgp3@pdx.edu>"]
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "ascii_art_converter"
+
+[[bin]]
+name = "ascii-art-converter-website"
+
+[dependencies]
+actix-files = "0.6.2"
+actix-multipart = "0.6.0"
+actix-web = "4.3.1"
+env_logger = "0.10.0"
+handlebars = { version = "4.3.6", features = ["dir_source"] }
+image = "0.24.6"
+mime = "0.3.16"
+regex = "1.8.1"
+serde = { version = "1.0.162", features = ["derive"] }
+serde_json = "1.0.96"
+tempfile = "3.4.0"
+uuid = { version = "1.3.2", features = ["v4"] }

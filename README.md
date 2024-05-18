@@ -1,8 +1,8 @@
 # ascii-art-converter-website
 
 ## Authors
-- Robert Peterson
-- Kelsey Werner
+- [Robert Peterson](https://robertp.me/)
+- [Kelsey Werner](https://kelseywerner.com/)
 
 ## Project Name
 ASCII Art Converter Website

@@ -38,8 +38,6 @@ Throughout the development of the `ascii_art_converter` library crate, automated
 ## Project Example
 An example demo illustrating the operation of our code can be found here: [https://youtu.be/XGguxxa04WY](https://youtu.be/XGguxxa04WY).
 
-Please note that this demo is a separate and different video from the PRESENTATION.mp4 video presentation file included in this repository.
-
 ## Project Evaluation & Future Work
 We finished the entire MVP of the project which included allowing the user to convert ASCII art to an image and an image to ASCII art on website. This also included all of the necessary form input validation with informative error messages displayed to the user that allowed them to retry with new input. We are also able to display the results of both types of conversion to the user on the site. Both the ASCII art and PNG image results page have a back button that takes the user back to the homepage of the app, so that if they want, they can choose to start a new ASCII or image conversion. Finally, users can take directly copy the ASCII text results off of the page and can use the browser's native "Save Image As..." function to save the image result.
 
